@@ -98,7 +98,7 @@ let questions = [
                 ]
             },
             {
-                question: "What is the name of the capital city of the Alliance faction?",
+                question: "What is the name of the Human capital city of the Alliance faction?",
                 answers: [
                     { text: "Orgrimmar", correct: false },
                     { text: "Stormwind", correct: true },
