@@ -152,7 +152,7 @@ let questions = [
                 ]
             },
             {
-                question: "Which city is the capital of the Forsaken?",
+                question: "Which city is the home of the Forsaken?",
                 answers: [
                     { text: "Orgrimmar", correct: false },
                     { text: "Stormwind", correct: false },
@@ -313,7 +313,6 @@ let questions = [
         score = 0;
         startButton.style.display = "none";
         nextButton.style.display = "block";
-        restartButton.style.display = "block";
         loadQuestion();
     }
 
@@ -412,6 +411,7 @@ let questions = [
         document.getElementById("question-number").textContent = "";
         startButton.style.display = "none";
         nextButton.style.display = "none";
+        restartButton.style.display = "inline-block";
     }
 
 
