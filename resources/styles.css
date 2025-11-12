@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url("download.jpg");
+}
+#quiz-container{
+    width: 400px;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    min-height: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+#question{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+#btn-container{
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    width: 30%;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 2px solid #000;
+    background-color: #417bf7;
+}
+.btn:hover{
+    background-color: #315fbb;
+    color: #fff;
+}
+#answer-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+.btn-grid button{
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #e0e0e0;
+}
+.btn-grid button:hover{
+    background-color: #c0c0c0;
+}
+#answer-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+.answer-option{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+input[type="radio"]{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.next-btn, .restart-btn{
+    display: none;
+}
