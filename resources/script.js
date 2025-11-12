@@ -1,7 +1,7 @@
 
 
 let rank = [ 
-            "Noob",
+            "Kirklin",
             "Private", 
             "Corporal", 
             "Sergeant", 
@@ -116,7 +116,7 @@ let questions = [
                 ]
             },
             {
-                question: "which NPC claimed that the Sunwell was merely a setback?",
+                question: "which NPC claimed that Tempest Keep was merely a setback?",
                 answers: [
                     { text: "Kael'thas Sunstrider", correct: true },
                     { text: "Malygos", correct: false },
@@ -125,7 +125,7 @@ let questions = [
                 ]
             },
             {
-                question: "Who shouted the famous line, 'You are not prepared!'?",
+                question: "Who shouted the famous line, 'YOU ARE NOT PREPARED!'?",
                 answers: [
                     { text: "Illidan Stormrage", correct: true },
                     { text: "Gul'dan", correct: false },
@@ -152,7 +152,7 @@ let questions = [
                 ]
             },
             {
-                question: "Which city is the home of the Forsaken?",
+                question: "Which city is home to the Forsaken?",
                 answers: [
                     { text: "Orgrimmar", correct: false },
                     { text: "Stormwind", correct: false },
@@ -228,14 +228,14 @@ let questions = [
                 answers: [
                     { text: "Tirion Fordring", correct: true },
                     { text: "Uther the Lightbringer", correct: false },
-                    { text: "Bolvar Fordragon", correct: false },
+                    { text: "Saidan Dathrohan", correct: false },
                     { text: "Anduin Wrynn", correct: false }
                 ]
             },
             {
                 question: "What is the name of the tavern located in Goldshire?",
                 answers: [
-                    { text: "The Silver Serpent", correct:  false},
+                    { text: "The Golden Pick", correct:  false},
                     { text: "The Drunken Dragon", correct: false },
                     { text: "The Gilded Rose", correct: false },
                     { text: "The Lion's Pride Inn", correct: true }
@@ -260,7 +260,7 @@ let questions = [
                 ]
             },
             {
-                question: "What is the name of the massive elemental lord that resides in the Molten Core?",
+                question: "What is the name of the elemental lord that resides in the Molten Core?",
                 answers: [
                     { text: "Ragnaros", correct: true },
                     { text: "Al'Akir", correct: false },
@@ -284,6 +284,15 @@ let questions = [
                     { text: "2005", correct: false },
                     { text: "2006", correct: false },
                     { text: "2007", correct: false }
+                ]
+            },
+            {
+                question: "Who would I follow into battle?",
+                answers: [
+                    { text: "Jaina Proudmoore", correct: false },
+                    { text: "Varian Wrynn", correct: false },
+                    { text: "Garrosh Hellscream", correct: false },
+                    { text: "Dunkums", correct: true }
                 ]
             }
         ];
