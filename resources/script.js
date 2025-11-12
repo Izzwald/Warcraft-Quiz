@@ -276,6 +276,15 @@ let questions = [
                     { text: "Stratholme", correct: false },
                     { text: "Blackwing Lair", correct: true }
                 ]
+            },
+            {
+                question: "In what year was World of Warcraft originally released?",
+                answers: [
+                    { text: "2004", correct: true },
+                    { text: "2005", correct: false },
+                    { text: "2006", correct: false },
+                    { text: "2007", correct: false }
+                ]
             }
         ];
 
