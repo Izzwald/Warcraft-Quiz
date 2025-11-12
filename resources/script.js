@@ -405,7 +405,7 @@ let questions = [
         rankElement.style.width = "fit-content";
         rankElement.style.margin = "20px auto";
         rankElement.style.border = "1px solid #ddd";
-        rankElement.textContent = `Your final rank is: ${finalRank}`;
+        rankElement.textContent = `Your rank is: ${finalRank}`;
 
         answerButtonsElement.appendChild(rankElement);
 
